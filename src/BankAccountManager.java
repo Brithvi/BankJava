@@ -8,7 +8,7 @@ public class BankAccountManager {
         savings.withdraw(500);
 
         checking.deposit(100);
-        checking.withdraw(700);
+        checking.withdraw(900);
 
         // Downcasting to access subclass-specific methods
         if (savings instanceof SavingsAccount) {
